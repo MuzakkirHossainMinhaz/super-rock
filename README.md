@@ -1,6 +1,6 @@
 # Super Rock : Search Lyrics
 
-> Here you can search by your favorite song, then choose your currect song from below list by artist name and click **Get Lyrics** to get the lyrics of the song.
+> Here you can search by your favorite song, then choose your currect song from below list by artist name and click **Get Lyrics** to get the lyrics of the song. Visit the [**Super Rock**](https://super-rock.netlify.app/) 👆
 
 ---
 
