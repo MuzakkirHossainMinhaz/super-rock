@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #6d6d70;
+    color: white;
+    background-image: url(/images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+}
+
+.logo,
+.toggle {
+    width: 70%;
+}
+
+.form-control {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 13px 13px 13px 20px;
+    border: none;
+    border-radius: 50px;
+}
+
+.btn {
+    border-radius: 2.5rem;
+    padding: 9px 20px;
+    background-color: #fa6559;
+    width: 110px;
+    color: white;
+}
+
+.btn-privious {
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.search-box {
+    position: relative;
+}
+
+.search-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+
+.single-result {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+}
+
+.single-lyrics h1 {
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+}
+
+#song-container {
+    height: calc(100vh - 280px);
+    overflow: scroll;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
