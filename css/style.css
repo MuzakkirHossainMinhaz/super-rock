@@ -64,8 +64,13 @@ body {
 }
 
 #song-container {
-    height: calc(100vh - 280px);
+    height: calc(100vh - 250px);
     overflow: scroll;
     scroll-behavior: smooth;
     scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+#song-container::-webkit-scrollbar {
+    display: none;
 }
